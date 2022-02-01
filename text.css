@@ -21,5 +21,31 @@
 .RIGHT {
   font-family: "Righteous";
   font-size: 30px;
-  text-align: right;
+  text-align: RIGHT;
+}
+
+
+.HEAD {
+   font-family: "Righteous";
+   font-size: 65px;
+   color: purple;
+   text-align: center;
+   background-color: pink;
+   text-shadow: 3px 3px 2px blue;
+ }
+
+.LEFTSHADOW {
+  font-family: "Righteous";
+  color: black;
+  font-size: 30px;
+  text-align: LEFT;
+  text-shadow: 4px 4px 10px white;
+}
+
+.RIGHTSHADOW {
+  font-family: "Righteous";
+  color: black;
+  font-size: 30px;
+  text-align: RIGHT;
+  text-shadow: 4px 4px 10px white;
 }
