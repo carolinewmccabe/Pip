@@ -49,3 +49,12 @@
   text-align: RIGHT;
   text-shadow: 4px 4px 10px white;
 }
+
+.CENTERTEXT {
+  font-family: "Righteous";
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  outline: 5px dotted purple;
+
+}

@@ -1,0 +1,121 @@
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+ font-family: "Righteous";
+ src: url("Righteous-Regular.ttf") format("TrueType");
+}
+
+.title {
+  font-family: "Righteous";
+  font-size: 80px;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  background-color: #E2F5FF;
+  -webkit-text-stroke:2.5px #B34E5D;
+}
+
+.row {
+  display: flex;
+  flex-flow: column;
+  font-family: "Righteous"
+}
+
+.row1 {
+  display: flex;
+  flex-flow: column;
+  height: 20vh;
+  font-size: 10px;
+}
+
+.row2 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  font-size: 10px;
+  height: 20vh;
+}
+
+.row3 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  font-size: 10px;
+  height: 20vh;
+}
+
+.row4 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  font-size: 10px;
+  height: 20vh;
+}
+
+
+.row5 {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  font-size: 10px;
+  height: 20vh;
+}
+
+.month {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+  background-color: #B34E5D;
+  font-family: "Righteous";
+  font-size: 25px;
+  color: white;
+}
+
+.week {
+    display: flex;
+    flex-flow: row;
+    height: 20vh;
+    flex: 1;
+}
+
+.week2 {
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+    height: 20vh;
+    background-color: #E2F5FF;
+}
+
+.week3 {
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+    height: 20vh;
+}
+
+.week4 {
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+    height: 20vh;
+    background-color: #E2F5FF;
+}
+
+.week5 {
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+    height: 20vh;
+}
+
+.day {
+    border: 1px solid black;
+    flex-flow: row;
+    flex: 1;
+    padding: 5px;
+}
