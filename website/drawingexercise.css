@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+}
+
+#canvas {
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+}
+
+#tophair {
+  width: 300px;
+  height: 100px;
+  background: black;
+  border-radius: 50% 50% 0% 0%;
+}
+
+#skin {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 90px;
+  background: bisque;
+  border-radius: 0% 0% 50% 50%;
+  box-shadow: inset 0 0 50px black;
+}
+
+#curlyhair1 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 100px;
+  top: -15px;
+  left: -8px;
+  background: black;
+  border-radius: 0% 0% 50% 0%;
+  transform: rotate(15deg);
+}
+
+#curlyhair2 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 100px;
+  top: -15px;
+  right: -8px;
+  background: black;
+  border-radius: 0% 0% 0% 50%;
+  transform: rotate(-15deg);
+}
+
+#curlyhair3 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 100px;
+  top: -5px;
+  left: 5px;
+  background: black;
+  border-radius: 0% 0% 50% 0%;
+  transform: rotate(1deg);
+}
+
+#curlyhair4 {
+  z-index: 1;
+  position: absolute;
+  width: 35px;
+  height: 100px;
+  top: -5px;
+  right: 5px;
+  background: black;
+  border-radius: 0% 0% 0% 50%;
+  transform: rotate(-1deg);
+}
+
+#curlyhair5 {
+  z-index: 1;
+  position: absolute;
+  width: 15px;
+  height: 100px;
+  top: -25px;
+  left: -8px;
+  background: black;
+  border-radius: 0% 0% 50% 0%;
+  transform: rotate(25deg);
+}
+
+#curlyhair6 {
+  z-index: 1;
+  position: absolute;
+  width: 15px;
+  height: 100px;
+  top: -25px;
+  right: -8px;
+  background: black;
+  border-radius: 0% 0% 0% 50%;
+  transform: rotate(-25deg);
+}
+
+#eyebrow1 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background: black;
+  top: 60px;
+  left: 50px;
+  transform: rotate(-3deg);
+}
+
+#eyebrow2 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background: black;
+  top: 60px;
+  right: 50px;
+  transform: rotate(3deg);
+}
+
+#eye1 {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  background: white;
+  top: 80px;
+  left: 50px;
+  border-radius: 30% 30% 50% 50%;
+  box-shadow: inset 0 0 20px black;
+}
+
+#eye2 {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  background: white;
+  top: 80px;
+  right: 50px;
+  border-radius: 30% 30% 50% 50%;
+  box-shadow: inset 0 0 20px black;
+}
+
+#iris1 {
+  z-index: 1;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  top: 95px;
+  left: 75px;
+  border-radius: 50%;
+}
+
+#iris2 {
+  z-index: 1;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  top: 95px;
+  right: 75px;
+  border-radius: 50%;
+}
+
+#pupil1 {
+  z-index: 2;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: white;
+  top: 97px;
+  left: 80px;
+  border-radius: 50%;
+}
+
+#pupil2 {
+  z-index: 2;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: white;
+  top: 97px;
+  right: 80px;
+  border-radius: 50%;
+}
+
+#nose {
+  position: absolute;
+  border-bottom: 50px solid black;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  height: 0;
+  width: 20px;
+  top: 150px;
+  left: 127px;
+}
+
+#lips {
+  position: absolute;
+  width: 100px;
+  height: 0px;
+  border: 30px solid;
+  border-color: transparent transparent black transparent;
+  top: 200px;
+  left: 72px;
+  border-radius: 50%;
+}
+
+#ear1 {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background: bisque;
+  box-shadow: inset 0 0 20px black;
+  left: -46px;
+  top: 50px;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-10deg);
+}
+
+#ear2 {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background: bisque;
+  box-shadow: inset 0 0 20px black;
+  right: -46px;
+  top: 50px;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(10deg);
+}

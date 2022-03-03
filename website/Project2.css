@@ -1,0 +1,153 @@
+@font-face {
+ font-family: "Righteous";
+ src: url("Righteous-Regular.ttf") format("TrueType");
+}
+
+.container {
+  width: 25vw;
+  height: 25vh;
+}
+.container .circle {
+  background: black;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  border-radius: 50px;
+}
+
+*{
+  margin; 20;
+  box-sizing; border-box;
+  background-color: black;
+  border-bottom: blue;
+}
+
+.BIGTEXT {
+   font-family: "Righteous";
+   font-size: 50px;
+   color: pink;
+   text-align: center;
+   background-color: black;
+   text-shadow: 3px 3px 2px blue;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-name: shake;
+ }
+
+   @keyframes shake {
+     0%, 100% {
+       transform: translateX(0);
+     }
+
+     10%, 30%, 50%, 70%, 90% {
+       transform: translateX(-10px);
+     }
+
+     20%, 40%, 60%, 80% {
+       transform: translateX(10px);
+     }
+   }
+
+
+.BIGTEXT2 {
+   font-family: "Righteous";
+   font-size: 50px;
+   color: pink;
+   text-align: center;
+   background-color: black;
+   text-shadow: 3px 3px 2px blue;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-name: shake;
+}
+   @keyframes shake {
+     0%, 100% {
+       transform: translateX(0);
+     }
+
+     10%, 30%, 50%, 70%, 90% {
+       transform: translateX(-10px);
+     }
+
+     20%, 40%, 60%, 80% {
+       transform: translateX(10px);
+     }
+   }
+
+
+.QUESTIONS {
+   font-family: "Righteous";
+   font-size: 20px;
+   color: white;
+   text-align: left;
+
+}
+
+#reveal {
+	background: #fafafa;
+	width: 100%;
+	display: none;
+
+}
+
+#hover-area {
+	text-align:right;
+  margin: 0 auto;
+
+}
+
+h1 {
+font-family: "Righteous";
+	font-size: 10;
+	text-align: right;
+	color: black;
+	text-shadow: 0 1px 0 #888;
+	padding: 10;
+}
+
+h1:hover {
+	transition-timing-function: ease;
+	color: pink;
+
+}
+
+#cf img {
+  position: relative;
+  animation-duration:15s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-name: moveright;
+}
+
+@keyframes moveright {
+0%  {
+    transform: translateX(-200px);
+}
+
+
+  100% {
+    transform: translateX(1900px);
+  }
+
+}
+
+#cf2 img {
+  position: relative;
+  animation-duration:15s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-name: moveleft;
+}
+
+@keyframes moveleft {
+0%  {
+    transform: translateX(1900px);
+}
+
+
+  100% {
+    transform: translateX(-300px);
+  }
+
+
+}
